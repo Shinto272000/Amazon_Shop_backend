@@ -37,8 +37,8 @@ import reviewsRouter from './routes/reviews.js';
 import cartRouter from './routes/cart.js';
 import orderRouter from './routes/order.js';
 
-app.use('/auth', authRouter);
-app.use('/products', productsRouter);
+app.use('/api/auth', authRouter);
+app.use('/api/products', productsRouter);
 app.use('/api/reviews', reviewsRouter);
 app.use('/api/cart', cartRouter);
 app.use('/api/orders', orderRouter);
